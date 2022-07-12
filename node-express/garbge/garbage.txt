@@ -1,0 +1,23 @@
+/*
+//dishes/:dishid code start here 
+
+app.get('/dishes/:dishId' , (req , res)=>{
+    res.end('wish will send you  ' + req.params.dishId+' the data');
+});
+
+app.post('/dishes/:dishId' , (req , res)=>{
+    res.statusCode = 403;
+    res.end('POST operation does not support    '+req.params.dishId);
+});
+
+app.put('/dishes/:dishId', (req , res)=>{
+    res.write('updating the dish '+req.params.dishId+'\n');
+    res.end('Will update the dish: ' + req.body.name + 
+    ' with details: ' + req.body.description);
+});
+
+app.delete('/dishes/:dishId', (req , res)=>{
+    res.end('Deleting  the dishes '+req.params.dishId);
+});
+
+*/
